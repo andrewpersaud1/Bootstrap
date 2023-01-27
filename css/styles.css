@@ -19,7 +19,7 @@ h3{
 }
 
 p{
-    color: #8f8f8f;
+    color: aliceblue;
 }
 
 .container-fluid{
@@ -55,7 +55,8 @@ p{
 
  /* Title Image */
 .phone{
-    width:45%;
+    padding-bottom: 50%;
+    width:55%;
     transform: rotate(5deg);
 }
 
@@ -69,6 +70,7 @@ p{
 /* features section */
 #features{
     padding: 7% 15%;
+    background-color: #301E67;
 }
 
 .feature-box{
@@ -76,12 +78,19 @@ p{
     padding: 5%;
 }
 
+.features-H1{
+    color: aliceblue;
+    font-family: Ubuntu;
+    text-align: center;
+}
+
 .icon{
-    color: red;
+    padding-top: 30%;
+    /* color: red; */
     margin-bottom: 1rem;
 }
 
 .icon:hover{
-    color:#ff4c68;
+    color: aliceblue;
 }
 
