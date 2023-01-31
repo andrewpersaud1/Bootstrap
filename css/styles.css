@@ -20,12 +20,12 @@ h2{
     line-height: 1.5;
 }
 h3{
-    color: aqua;
+    color: black;
     font-family: "Montserrat-Bold";
 }
 
 p{
-    color: aliceblue;
+    color: black;
 }
 
 .container-fluid{
@@ -109,7 +109,7 @@ p{
     background-color: #5B8FB9;
 }
 
-.test-image{
+.testimonial-image{
     width: 10%;
     border-radius: 100%;
     margin: 20px;
@@ -125,3 +125,25 @@ p{
     width: 15%;
     margin: 20px;
 }
+ /* Pricing Section */
+#pricing{
+    padding:100px;
+    background-color: #B6EADA;
+}
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+#cta{
+    
+    text-align: center;
+    background-color:#B6EADA ;
+}
+
+#footer{
+    text-align: center;
+    background-color:#B6EADA ;
+    padding-bottom: 5px;
+}
+
