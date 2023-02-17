@@ -61,9 +61,9 @@ p{
 
  /* Title Image */
 .phone{
-    padding-bottom: 50%;
-    width:55%;
-    transform: rotate(5deg);
+    padding-bottom: 70%;
+    max-width: 70%;
+    
 }
 
 /* Middle Container */
@@ -145,5 +145,16 @@ p{
     text-align: center;
     background-color:#B6EADA ;
     padding-bottom: 5px;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .phone{
+        position: static;
+        width: 100px;
+    }
+
 }
 
