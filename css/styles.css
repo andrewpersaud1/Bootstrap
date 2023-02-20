@@ -1,31 +1,34 @@
 body{
     font-family: "Montserrat";
+    text-align: center;
 }
 
 
 #title {
     background-color: #03001C;
     color: white;
+    text-align: left;
 }
 
-h1{
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+
+p{
+    color: black;
+}
+    /* Headings */
+.big-Heading{
     font-family: 'Montserrat-Bold', sans-serif;
     size: 3rem;
     line-height: 1.5;
 }
 
-h2{
-    font-family: "Montserrat";
+
+.section-Heading{
     font-size: 3rem;
     line-height: 1.5;
-}
-h3{
-    color: black;
-    font-family: "Montserrat-Bold";
-}
-
-p{
-    color: black;
 }
 
 .container-fluid{
@@ -66,6 +69,8 @@ p{
     
 }
 
+
+
 /* Middle Container */
 .fa-solid fa-circle-check{
     font-family: "Montserrat";
@@ -79,15 +84,18 @@ p{
     background-color: #301E67;
 }
 
+.feature-title{
+    font-size: 1.5rem;
+    color: white;
+}
+
 .feature-box{
-    text-align: center;
     padding: 5%;
 }
 
 .features-H1{
     color: aliceblue;
-    font-family: Ubuntu;
-    text-align: center;
+    font-family: Ubuntu; 
 }
 
 .icon{
@@ -104,11 +112,14 @@ p{
 
 #testimonials{
     padding: 7% 15%;
-    text-align: center;
     color: #fff;
     background-color: #5B8FB9;
 }
 
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
 .testimonial-image{
     width: 10%;
     border-radius: 100%;
@@ -117,7 +128,6 @@ p{
 
 #press{
     background-color: #5B8FB9;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -131,21 +141,45 @@ p{
     background-color: #B6EADA;
 }
 
+.price-text{
+    
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .pricing-column{
     padding:3% 2%;
 }
 
 #cta{
-    
-    text-align: center;
     background-color:#B6EADA ;
 }
 
 #footer{
-    text-align: center;
     background-color:#B6EADA ;
     padding-bottom: 5px;
 }
+
+
+/* CTA Section */
+#cta {
+    background-color: #03001C;
+    color:#fff;
+    padding:7% 15%;
+}
+
+
+
+/* Footer section */
+#footer{
+    padding: 7%;
+}
+
+.social-icon{
+
+    margin:20px 10px;
+}
+
 
 @media (max-width:1028px){
     #title{
