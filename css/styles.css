@@ -156,9 +156,9 @@ p{
     padding:3% 2%;
 }
 
-#cta{
-    background-color:#B6EADA ;
-}
+
+
+
 
 #footer{
     background-color:#B6EADA ;
@@ -169,11 +169,16 @@ p{
 /* CTA Section */
 #cta {
     background-color: #03001C;
-    color:#fff;
+    color:aliceblue;
     padding:7% 15%;
 }
-
-
+.cta-heading{
+    padding-bottom: 3%;
+    color: aliceblue;
+}
+.cta-points{
+    color: aliceblue;
+}
 
 /* Footer section */
 #footer{
